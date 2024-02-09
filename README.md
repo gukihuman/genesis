@@ -1,3 +1,3 @@
 Genesis Code Challenge
 
-Frontend page: (link placeholder)
+Frontend page: [genesis-omega.vercel.app](genesis-omega.vercel.app)
