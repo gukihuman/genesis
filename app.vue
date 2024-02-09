@@ -21,6 +21,8 @@ enum ApiAdress {
     Companies = "/api/createCompany",
 }
 const fetchEntity = async () => {
+    if (useStore().isFetching) return
+
     const entityIndex = useStore().entityIndex
     if (entityIndex === 0) return // Не выбрано
 
